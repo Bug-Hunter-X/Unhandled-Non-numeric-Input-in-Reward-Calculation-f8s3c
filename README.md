@@ -1,0 +1,1 @@
+This repository demonstrates a common error in DApp development: handling unexpected input types.  The `calculateReward` function correctly handles negative input but fails to gracefully handle non-numeric values.  This can cause the DApp to crash or produce incorrect results. The solution demonstrates robust input validation.
